@@ -7,3 +7,12 @@ src/model/hooks/__pycache__/useGPU.cpython-311.pyc
 src/model/hooks/__pycache__/usePreprocessing.cpython-311.pyc
 src/model/hooks/__pycache__/useSaveModel.cpython-311.pyc
 src/model/hooks/__pycache__/useTrainModel.cpython-311.pyc
+src/model/hooks/__pycache__/useTrainModel.cpython-311.pyc
+src/model/hooks/__pycache__/useSaveModel.cpython-311.pyc
+src/model/hooks/__pycache__/usePreprocessing.cpython-311.pyc
+src/model/hooks/__pycache__/useGPU.cpython-311.pyc
+src/model/hooks/__pycache__/useFileLoad.cpython-311.pyc
+src/model/hooks/__pycache__/useCleanData.cpython-311.pyc
+src/model/file/pm25_scaler_knbd_supat_merge_PM_Original.pkl
+src/model/config/Config.py
+src/model/config/__pycache__/Config.cpython-311.pyc
