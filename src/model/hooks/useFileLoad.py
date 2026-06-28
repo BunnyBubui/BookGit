@@ -7,6 +7,7 @@ from config.Config import folder_path, target_locations, LOCATION_ENV_MAP, Color
 def _process_single_file(file):
     """🛠️ Worker Function สำหรับอ่านและแปลงวันที่แยกรันในแต่ละ Thread"""
     filename = os.path.basename(file)
+    print(file)
     matched_key = next((k for k in target_locations if k in filename), None)
     if not matched_key: return None 
 
