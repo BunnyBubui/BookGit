@@ -4,3 +4,11 @@ D:\BookProject\BookGit\src\model\__pycache__
 D:\BookProject\BookGit\src\model\config\__pycache__
 D:\BookProject\BookGit\src\model\hooks\__pycache__
 D:\BookProject\BookGit\src\model\utils\__pycache__
+src/model/config/__pycache__/Config.cpython-311.pyc
+src/model/config/Config.py
+src/model/hooks/__pycache__/useCleanData.cpython-311.pyc
+src/model/hooks/__pycache__/useFileLoad.cpython-311.pyc
+src/model/hooks/__pycache__/useGPU.cpython-311.pyc
+src/model/hooks/__pycache__/usePreprocessing.cpython-311.pyc
+src/model/hooks/__pycache__/useSaveModel.cpython-311.pyc
+src/model/hooks/__pycache__/useTrainModel.cpython-311.pyc
