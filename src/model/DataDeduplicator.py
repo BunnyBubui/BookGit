@@ -7,7 +7,7 @@ from config.Config import folder_path, Colors
 # 🎯 TARGET FILENAME PREFIXES (กำหนดชื่อไฟล์เริ่มต้นที่ต้องการคลีนตรงนี้)
 # ==============================================================================
 TARGET_PREFIXES = [
-    "merge_PM_Original"
+    "c3_supat", "c3_knbd"
 ]
 
 def DeduplicateAndSortData():

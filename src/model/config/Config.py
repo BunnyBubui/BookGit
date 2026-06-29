@@ -44,11 +44,11 @@ FIREBASE_COLUMNS_MAP = {
 }
 
 # Train Path
-folder_path = r'D:\BookProject\BookGit\src\data'
-save_dir = r'D:\BookProject\BookGit\src\model\file'
+folder_path = r'D:/Users/Admin/Desktop/IIT/BookGit/src/data'
+save_dir = r'D:/Users/Admin/Desktop/IIT/BookGit/src/model/file'
 
 # ⚙️ Setting Firebase
-CREDENTIAL_PATH = r'D:\BookProject\BookGit\firebase_setting.json' 
+CREDENTIAL_PATH = r'D:/Users/Admin/Desktop/IIT/BookGit/firebase_setting.json' 
 DATABASE_URL = 'https://lab68-118f4-default-rtdb.asia-southeast1.firebasedatabase.app/'
 
 # ⚙️ Setting Model
@@ -92,6 +92,6 @@ DATA_SOURCE_MODE = 'LOCAL' #LOCAL || FIREBASE
 FILE_TEST = "merge_PM_Original"
 DATE_TEST = "27-06-2026"
 
-TEST_FILE_PATH = f'D:\BookProject\BookGit\src\data\{FILE_TEST}_{DATE_TEST}.csv'
-RAW_FOLDER = r"D:\BookProject\BookGit\src\data\old_data" # โฟลเดอร์ที่คุณเอาไฟล์ดิบมาวาง
-OUTPUT_FOLDER = r"D:\BookProject\BookGit\src\data"  # โฟลเดอร์ปลายทางที่ระบบพยากรณ์รออ่าน
+TEST_FILE_PATH = f'D:/Users/Admin/Desktop/IIT/BookGit/src/data/{FILE_TEST}_{DATE_TEST}.csv'
+RAW_FOLDER = r"D:/Users/Admin/Desktop/IIT/BookGit/src/data" # โฟลเดอร์ที่คุณเอาไฟล์ดิบมาวาง
+OUTPUT_FOLDER = r"D:/Users/Admin/Desktop/IIT/BookGit/src/data"  # โฟลเดอร์ปลายทางที่ระบบพยากรณ์รออ่าน
