@@ -52,7 +52,7 @@ CREDENTIAL_PATH = r'D:/Users/Admin/Desktop/IIT/BookGit/firebase_setting.json'
 DATABASE_URL = 'https://lab68-118f4-default-rtdb.asia-southeast1.firebasedatabase.app/'
 
 # ⚙️ Setting Model
-MODEL_TYPE = "LSTM"
+MODEL_TYPE = "RNN"
 target_locations = ['knbd', 'supat', 'merge_PM_Original']
 loc_suffix = '_'.join(target_locations) if target_locations else 'all'
 MODEL_PATH = save_dir + fr'\pm25_{MODEL_TYPE.lower()}_multi_{loc_suffix}.keras'
