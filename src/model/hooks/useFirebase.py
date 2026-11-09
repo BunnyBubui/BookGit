@@ -7,7 +7,9 @@ def ConnectFirebase():
     print(f"{Colors.CYAN}⏳ [STEP 1] Connecting to Firebase Database...{Colors.RESET}")
     try:
         if not firebase_admin._apps:
-            cred = credentials.Certificate(CREDENTIAL_PATH)
+            if not DATABASE_URL:
+                raise ValueError('Set FIREBASE_DATABASE_URL before using Firebase mode')
+            cred = credentials.Certificate(CREDENTIAL_PATH) if CREDENTIAL_PATH else credentials.ApplicationDefault()
             firebase_admin.initialize_app(cred, {'databaseURL': DATABASE_URL})
         print(f"{Colors.GREEN}✅ Firebase connected successfully!{Colors.RESET}")
     except Exception as e:

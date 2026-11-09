@@ -23,3 +23,31 @@ src/model/config/Config.py
 src/model/config/__pycache__/Config.cpython-311.pyc
 src/model/config/__pycache__/Config.cpython-311.pyc
 src/model/hooks/__pycache__/useGPU.cpython-311.pyc
+
+# Local configuration and generated user data
+.env
+.env.*
+*.env
+!*.env.example
+!.env.example
+firebase_setting.json
+*service-account*.json
+*.keystore
+*.jks
+*.pem
+*.key
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+**/public/uploads/
+**/public/exports/
+
+# Build output
+dist/
+build/
+target/
+.expo/
+.gradle/
+*.log
